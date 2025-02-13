@@ -27,7 +27,7 @@ Host *.github.com
   UseKeychain yes
   IdentityFile ~/.ssh/current_github
 
-# Agrega cuantos servidores desees, solo requieres duplicar las siguientes líneas:
+# Agrega cuantos servidores desees, solo requieres duplicar las siguientes líneas, puedes usar el mismo IdentifyFile para todos los servidores:
 Host my-server
   HostName 211.11.11.111  # Reemplaza con la dirección IP de tu servidor
   User root         # Reemplaza con tu nombre de usuario en el servidor
