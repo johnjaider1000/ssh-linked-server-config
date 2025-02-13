@@ -86,11 +86,11 @@ sudo ufw allow 443/tcp    # Para HTTPS$ sudo ufw reload
 ```bash
 # -r es para hacer una subida recursiva
 # NOTA: Sube la carpeta con el nombre del directorio, no es necesario crear otra carpeta en el servidor
-scp -r /my-folder my-server:/root
+scp -r /my-local-folder my-server:/root
 ```
 
 ### Descargar:
 ```bash
 # -r es para hacer una descarga recursiva
-scp -r starlly-server:/root/file-o-foler my-local-folder
+scp -r my-server:/root/file-o-foler my-local-folder
 ```
