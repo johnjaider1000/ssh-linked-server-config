@@ -16,7 +16,7 @@ ssh-keygen -t rsa -b 4096
 ssh-copy-id root@211.11.11.111
 
 # Si configuraste un puerto:
-ssh-copy-id root@211.11.11.111 -p 2222
+ssh-copy-id -p 2222 root@211.11.11.111
 ```
 
 - En nuestro archivo local `~/.ssh/config` deberíamos tener algo como esto; (Ignorar github):
